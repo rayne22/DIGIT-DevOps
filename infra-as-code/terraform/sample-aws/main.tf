@@ -23,7 +23,7 @@ module "db" {
   subnet_ids                    = "${module.network.private_subnets}"
   vpc_security_group_ids        = ["${module.network.rds_db_sg_id}"]
   availability_zone             = "${element(var.availability_zones, 0)}"
-  instance_class                = "db.t3.medium"  ## postgres db instance type
+  instance_class                = "db.t3.large"  ## postgres db instance type
   engine_version                = "15.4"   ## postgres version
   storage_type                  = "gp2"
   storage_gb                    = "10"     ## postgres disk size

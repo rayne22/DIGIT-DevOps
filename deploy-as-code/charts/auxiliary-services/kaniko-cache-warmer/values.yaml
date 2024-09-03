@@ -16,7 +16,7 @@ args: ["--cache-dir=/cache",
       "--image=egovio/alpine-maven-builder-jdk-8:11-master-6036091e",
       "--image=egovio/8-openjdk-alpine",
       "--image=egovio/alpine-maven-builder-jdk-8:1-master-NA-6036091e",         
-      "--image=egovio/flyway:4.1.2",         
+      "--image=egovio/flyway:10.7.1",         
       "--image=egovio/alpine-node-builder-10:yarn"         
       ]  
 
