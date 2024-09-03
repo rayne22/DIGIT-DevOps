@@ -21,6 +21,6 @@ db_username: "digitegov"
 domain_name: "pareza.tech"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
-terraform_state_bucket_name: "digit-egov-githubactions-bucket"
+terraform_state_bucket_name: "digit-egov-2-githubactions-bucket"
 
 
