@@ -11,11 +11,11 @@ variable "vpc_cidr_block" {
 }
 
 variable "network_availability_zones" {
-  default = ["ap-south-1b", "ap-south-1a"]
+  default = ["eu-north-1b", "eu-north-1a"]
 }
 
 variable "availability_zones" {
-  default = ["ap-south-1b"]
+  default = ["eu-north-1b"]
 }
 
 variable "kubernetes_version" {

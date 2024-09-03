@@ -6,5 +6,5 @@ variable "cluster_name" {
 }
 
 variable "availability_zones" {
-  default = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
+  default = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
 }
